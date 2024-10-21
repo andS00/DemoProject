@@ -22,16 +22,14 @@ while True:
     
     
     screen.fill("white")
-    pygame.draw.circle(screen, "PINK", (400, 300), 200)
-    pygame.draw.circle(screen, "BLACK", (500, 250), 20)
-    pygame.draw.circle(screen, "BLACK", (300, 250), 20)
+    pygame.draw.circle(screen, "pink", (400, 300), 200)
+    pygame.draw.circle(screen, "blue", (500, 250), 20)
+    pygame.draw.circle(screen, "blue", (300, 250), 20)
+    pygame.draw.line(screen, ("black"), (300,400), (500,400), 5)
 
     #pygame.draw.rect(screen,(127,0,255),(100,50,100,50), 2)
     #pygame.draw.line(screen, (0, 0, 0), (100,400), (700,400), 5)
     #pygame.draw.polygon(screen, (0,0,0), [(300, 200),(400,100),(500,200),(500,300),(300,300) ], 5)
     orologio.tick(frame_rate)
-    
-    
-    
-    pygame.display.update()
-    
+
+    pygame.display.update()    
